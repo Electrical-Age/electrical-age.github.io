@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<title>ElectricalAge - Minecraft Mod (ELN)</title>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="description" content="ElectricalAge - Minecraft Mod (ELN)">
+		<meta name="author" content="Dolu1990">
+
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<style type="text/css">
+			html,
+			body {
+				height: 100%;
+			}
+
+			#wrap {
+				min-height: 100%;
+				height: auto !important;
+				height: 100%;
+				margin: 0 auto -60px;
+			}
+
+			#push {
+				height: 60px;
+			}
+
+			#footer {
+				background-color: #f5f5f5;
+			}
+
+			@media (max-width: 767px) {
+			#footer {
+				margin-left: -20px;
+				margin-right: -20px;
+				padding-left: 20px;
+				padding-right: 20px;
+			}
+			}
+
+			.container {
+				width: auto;
+				max-width: 680px;
+			}
+			.container .credit {
+				margin: 20px 0;
+			}
+
+			.right .github-fork-ribbon {
+            	background-color: #333;
+        	}
+		</style>
+		<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/gh-fork-ribbon.css">
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="css/gh-fork-ribbon.ie.css">
+		<![endif]-->
+
+		<script>
+			var modInfos = {
+				name: "BETA",
+				version: "1.4.4",
+				datetime: "2014-06-16T05:16:07-07:00"
+			};
+
+			function printVersion() {
+				document.getElementById('modeinfo').innerHTML = modInfos.name + " - " + modInfos.version
+			}
+			window.onload = printVersion;
+ 		</script>
+
+  </head>
+  <body>
+		<!-- Github ribbon -->
+		<div class="github-fork-ribbon-wrapper right">
+        	<div class="github-fork-ribbon">
+            	<a href="https://github.com/Dolu1990/ElectricalAge">ElectricalAge on GitHub</a>
+        	</div>
+    		</div>
+
+		<div id="wrap">
+		  <div class="container">
+				<div class="page-header">
+					<div class="row-fluid">
+  						<div class="span1"><img src="img/eln.png" height="48" width="48" alt="ElectricalAge"></div>
+  						<div class="span7">
+  							<h1 style="margin:0;padding:0;">ElectricalAge</h1>
+  							<h2 style="margin:0;padding:0;"><small>Minecraft Mod - Codename : ELN</small></h2>
+  						</div>
+  						<div class="span4" style="text-align:right;">
+  							<a href="https://github.com/Dolu1990/ElectricalAge/releases/latest" class="btn btn-primary" style="margin-top: 25px;" title="Last release">
+  								Download last release<br><i class="icon-tag icon-white"></i> <small id="modeinfo"></small>
+  							</a>
+  						</div>
+					</div>
+				</div>
+
+				<p class="lead">
+					<abbr title="attribute"><a href="https://github.com/Dolu1990/ElectricalAge" title="ElectricalAge home page">ELN</a></abbr> is a Minecraft Mod offering the ability to perform large-scale in-game electrical simulations.
+				</p>
+
+				<p><img src="screenshots/EA_mine01.png" alt="ElectricalAge screenshot" /></p>
+				
+				<dl>
+					<dt>A better simulation</dt>
+				  	<dd>Electrical simulation with resistive and capacitive effects. Behaviour similar to those of real life objects.</dd>
+				  	<dt>Multiple electrical sources</dt>
+				  	<dd>Furnaces, Solar panels, Wind turbines, Batteries, Capacitors, ...</dd>
+				  	<dt>Break the cube</dt>
+				  	<dd>Cables, sensors, actuators, alarms, etc. can be placed on each face (outer and inner) of a cube, witch allows a significant reduction of the consumed space by electrical installations.</dd>
+				  	<dt>Night-lighting revisited</dt>
+				  	<dd>Lamps, switches, captors, ...</dd>
+				  	<dt>Small and big electricals consumers</dt>
+				  	<dd>From the lamps, electrical furnaces,... to the miners, transporters, ...</dd>
+				  	<dt>Incredible tools</dt>
+				  	<dd>XRay scanner, flashlight, portable mining drill, ...</dd>
+				  	<dt>Genericity</dt>
+				  	<dd>Old redstones circuits can be exploited with electrical - redstones converters.</dd>
+				  	<dt>Game lifetime/complexity extended</dt>
+				  	<dd>A consequent list of new raw materials and items...</dd>
+					<br/>
+					<dt>Official forum post is <a href="http://www.minecraftforum.net/topic/2741783-172forge-electrical-age-mod-beta-146/" title="here">here</a> (updated frequently)</dt>
+				</dl>
+			</div>
+
+		  <div id="push"></div>
+		</div>
+
+		<div id="footer" style="hei">
+		  <div class="container">
+		  		<p class="credit" style="float:right;">
+		  			<iframe src="http://ghbtns.com/github-btn.html?user=Dolu1990&amp;repo=ElectricalAge&amp;type=watch&amp;count=true"
+		  				style="width:53px;height:20px;overflow:hidden;border:0;"></iframe>
+		  		<p>
+		  		<p class="credit">This project is maintained with all the <i class="icon-heart"></i> in the world by <a href="https://github.com/Dolu1990" title="Dolu1990">Dolu1990</a>.</p>
+				<p class="credit muted">
+					The source code of this mod is licensed under the <a href="http://www.gnu.org/copyleft/lesser.html" title="License">LGPL V3.0 licence</a>.<br>
+					Hosted on GitHub Pages.
+				</p>
+			</div>
+		</div>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  	  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+		
+		  ga('create', 'UA-49110359-1', 'dolu1990.github.io');
+		  ga('send', 'pageview');
+		
+		</script>
+	</body>
+</html>
