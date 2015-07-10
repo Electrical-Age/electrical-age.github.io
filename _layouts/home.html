@@ -29,28 +29,33 @@
 
 	<body>
 		<!-- Github ribbon -->
-		<div class="github-fork-ribbon-wrapper right">
+		<div class="github-fork-ribbon-wrapper right hidden-sm hidden-xs">
 			<div class="github-fork-ribbon">
 				<a href="https://github.com/Dolu1990/ElectricalAge">Electrical Age on GitHub</a>
 			</div>
 		</div>
 
 		<div class="container">
-			<div class="header">
-				<ul class="nav nav-pills pull-right" style="margin-top: 15px;">
-					<li class="active"><a href="https://github.com/Dolu1990/ElectricalAge/releases" title="Download"><strong>Download</strong></a></li>
-					<li><a href="http://wiki.electrical-age.net/" title="Wiki">Wiki</a></li>
-					<li><a href="http://www.minecraftforum.net/topic/2741783-172forge-electrical-age-mod-beta-146/" title="Forum post">Forum</a></li>
-				</ul>
 
-				<div class="row">
-					<div class="col-lg-1"><img src="img/elnlogocube.png" height="48" width="48" style="margin-top: 5px;" alt="ElectricalAge"></div>
-					<div class="col-lg-5">
-						<h2>{{site.title}}</h2>
-						<h3><small>{{site.description}}</small></h3>
-					</div>
-				</div>
-			</div> <!-- /header -->
+			<!-- Navigation -->
+			<nav class="navbar" role="navigation">
+  				<div style="height:70px;border-bottom-color:#E5E5E5;border-bottom-style:solid;border-bottom-width:1px;padding:0;padding-bottom:20px;margin:0;">
+    				<div class="navbar-header pull-left">
+      					<div class="media-left" style="line-height:60px;"><img src="img/elnlogocube.png" height="48" width="48" alt="ElectricalAge"></div>
+      					<div class="media-left">
+							<h2>{{site.title}}</h2>
+							<h3 style="margin:0"><small>{{site.description}}</small></h3>
+      					</div>
+    				</div>
+    				<div class="navbar-header pull-right" style="margin-top:5px;">
+      					<ul class="nav navbar-nav nav-pills pull-left">
+							<li><a href="http://www.minecraftforum.net/topic/2741783-172forge-electrical-age-mod-beta-146/" title="Forum post">Forum</a></li>
+							<li><a href="http://wiki.electrical-age.net/" title="Wiki">Wiki</a></li>
+							<li class="active"><a href="https://github.com/Dolu1990/ElectricalAge/releases" title="Download"><strong>Download</strong></a></li>
+      					</ul>
+    				</div>
+  				</div>
+			</nav><!-- /navigation -->
 
 			<p class="lead">
 				<abbr title="attribute"><a href="index.html" title="Electrical Age - Minecraft mod (ELN)">ELN</a></abbr> is a Minecraft mod offering the ability to perform large-scale in-game electrical simulations.
