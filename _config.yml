@@ -12,6 +12,22 @@ kramdown:
 relative_permalinks: false
 permalink: news/:title/
 
+
+# Responsive-image
+responsive_image:
+  template: _includes/responsive-image.html
+
+  default_quality: 90
+
+  sizes:
+    - width: 350   # For low-bandwidth connections.
+      quality: 80
+    - width: 700   # The size Chrome computes for the carousel.
+    - width: 1400  # For Retina screens.
+
+  output_path_format: assets/resized/%{width}/%{basename}
+
+
 # Collections
 collections:
 
