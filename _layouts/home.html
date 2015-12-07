@@ -19,6 +19,14 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/gh-fork-ribbon.css" rel="stylesheet">
     <link href="css/jumbotron-narrow.css" rel="stylesheet">
+    <style>
+      iframe {
+        height: 85vh;
+        width: 100%;
+        border: 0;
+        padding-bottom: 1em;
+      }
+    </style>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -47,91 +55,101 @@
               <h3 style="margin:0"><small>{{site.description}}</small></h3>
             </div>
           </div>
-          <div class="navbar-header pull-right" style="margin-top:5px;">
-            <ul class="nav navbar-nav nav-pills pull-left">
-              <li><a href="http://www.minecraftforum.net/topic/2741783-172forge-electrical-age-mod-beta-146/" title="Forum post">Forum</a></li>
-              <li><a href="http://wiki.electrical-age.net/" title="Wiki">Wiki</a></li>
-              <li class="active"><a href="https://github.com/Dolu1990/ElectricalAge/releases" title="Download"><strong>Download</strong></a></li>
-            </ul>
-          </div>
+          <ul id="tabbar" class="nav navbar-nav nav-pills pull-left">
+            <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+            <li role="presentation"><a href="#irc" aria-controls="irc" role="tab" data-toggle="tab" title="Chat room">IRC</a></li>
+            <li><a href="http://www.minecraftforum.net/topic/2741783-172forge-electrical-age-mod-beta-146/" title="Forum post">Forum</a></li>
+            <li><a href="http://wiki.electrical-age.net/" title="Wiki">Wiki</a></li>
+            <li><a href="https://github.com/Dolu1990/ElectricalAge/releases" title="Download"><strong>Download</strong></a></li>
+          </ul>
         </div>
       </nav><!-- /navigation -->
 
-      <p class="lead">
-        <abbr title="attribute"><a href="index.html" title="Electrical Age - Minecraft mod (ELN)">ELN</a></abbr> is a Minecraft mod offering the ability to perform large-scale in-game electrical simulations.
-      </p>
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="home">
 
-      <!-- Carousel -->
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="margin-bottom: 10px;">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-        </ol>
+          <p class="lead">
+            <abbr title="attribute"><a href="index.html" title="Electrical Age - Minecraft mod (ELN)">ELN</a></abbr> is a Minecraft mod offering the ability to perform large-scale in-game electrical simulations.
+          </p>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-          <div class="item active">{% responsive_image path: screenshots/ELN_PPICTSET1_0004F.JPG %}</div>
-          <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET1_0001F.JPG %}</div>
-          <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET1_0002F.JPG %}</div>
-          <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET1_0003F.JPG %}</div>
-          <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET1_0005F.JPG %}</div>
-          <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET2_0001SMALL.JPG %}</div>
-          <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET2_0002SMALL.JPG %}</div>
-          <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET2_0003SMALL.JPG %}</div>
-          <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET2_0004SMALL.JPG %}</div>
+          <!-- Carousel -->
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="margin-bottom: 10px;">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active">{% responsive_image path: screenshots/ELN_PPICTSET1_0004F.JPG %}</div>
+              <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET1_0001F.JPG %}</div>
+              <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET1_0002F.JPG %}</div>
+              <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET1_0003F.JPG %}</div>
+              <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET1_0005F.JPG %}</div>
+              <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET2_0001SMALL.JPG %}</div>
+              <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET2_0002SMALL.JPG %}</div>
+              <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET2_0003SMALL.JPG %}</div>
+              <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET2_0004SMALL.JPG %}</div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+
+          <!-- BETA warning -->
+          <div class="alert alert-warning" role="alert">
+            <strong>Warning!</strong> Electrical Age is still in BETA.
+          </div>
+
+          <div class="row marketing">
+            <div class="col-lg-6">
+              <h4>A better simulation</h4>
+              <p>Real electrical simulation model (with resistive, inductive and capacitive effects). Behaviour similar to those of real life objects.</p>
+
+              <h4>Multiple electrical sources</h4>
+              <p>Furnaces, Solar panels, Wind turbines, Batteries, Capacitors, ...</p>
+
+              <h4>Incredible tools</h4>
+              <p>XRay scanner, flashlight, portable mining drill, ...</p>
+
+              <h4>Interoperability</h4>
+              <p>Old redstones circuits can be exploited with electrical - redstones converters.</p>
+            </div>
+
+            <div class="col-lg-6">
+              <h4>Break the cube</h4>
+              <p>Cables, sensors, actuators, alarms, etc. can be placed on each face (outer and inner) of a cube, which allows a significant reduction of the consumed space by electrical installations.</p>
+
+              <h4>Small and big electricals consumers</h4>
+              <p>From the lamps, electrical furnaces,... to the miners, transporters, ...</p>
+
+              <h4>Night-lighting revisited</h4>
+              <p>Lamps, switches, captors, ...</p>
+
+              <h4>Game lifetime/complexity extended</h4>
+              <p>A consequent list of new raw materials and items...</p>
+            </div>
+          </div>
+        </div> <!-- Home tab -->
+
+        <div role="tabpanel" class="tab-pane fade" id="irc">
+          <iframe src="//qchat2.rizon.net/?channels=electricalage"></iframe>
         </div>
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-      </div>
-
-      <!-- BETA warning -->
-      <div class="alert alert-warning" role="alert">
-        <strong>Warning!</strong> Electrical Age is still in BETA.
-      </div>
-
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>A better simulation</h4>
-          <p>Real electrical simulation model (with resistive, inductive and capacitive effects). Behaviour similar to those of real life objects.</p>
-
-          <h4>Multiple electrical sources</h4>
-          <p>Furnaces, Solar panels, Wind turbines, Batteries, Capacitors, ...</p>
-
-          <h4>Incredible tools</h4>
-          <p>XRay scanner, flashlight, portable mining drill, ...</p>
-
-          <h4>Interoperability</h4>
-          <p>Old redstones circuits can be exploited with electrical - redstones converters.</p>
-        </div>
-
-        <div class="col-lg-6">
-          <h4>Break the cube</h4>
-          <p>Cables, sensors, actuators, alarms, etc. can be placed on each face (outer and inner) of a cube, which allows a significant reduction of the consumed space by electrical installations.</p>
-
-          <h4>Small and big electricals consumers</h4>
-          <p>From the lamps, electrical furnaces,... to the miners, transporters, ...</p>
-
-          <h4>Night-lighting revisited</h4>
-          <p>Lamps, switches, captors, ...</p>
-
-          <h4>Game lifetime/complexity extended</h4>
-          <p>A consequent list of new raw materials and items...</p>
-        </div>
-      </div>
+      </div> <!-- All tabs -->
 
     </div> <!-- /container -->
 
@@ -152,6 +170,7 @@
 
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="js/seamless.parent.min.js"></script>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
