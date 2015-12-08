@@ -7,6 +7,10 @@ env:
   - GH_REF: github.com/Electrical-Age/electrical-age.github.io.git
   - secure: AqIr/bdpfgmotNL+zhbn8CFHXmetV1kXDC/2FkWy5U7axA8TvoOkZiWS03CkTNY1JMqBvIVg3PekZr4RLKB15M4gH19zSRfSoWdByB1OnHHboLkhYeJaen75PXmhFZNu1p2RFR84RNeejVE0bdxykYuDj8fHc1JYnGGt4eXCs9k=
 
+branches:
+  only:
+    - develop
+
 install: gem install jekyll jekyll-responsive_image
 script: ".travis/build.sh"
 
