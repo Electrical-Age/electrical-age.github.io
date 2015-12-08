@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script updated from https://github.com/felixrieseberg/travis-jekyll-git/blob/master/scripts/deploy.sh
-if [ "$TRAVIS_REPO_SLUG" == "Electrical-Age/electrical-age.github.io" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]
+if [ "$TRAVIS_REPO_SLUG" == "Electrical-Age/electrical-age.github.io" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ]
 then
 
   echo -e "Publishing latest website to 'http://electrical-age.github.io'\n"
