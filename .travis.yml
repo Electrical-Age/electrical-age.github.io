@@ -1,3 +1,5 @@
+sudo: false
+
 language: ruby
 rvm:
 - 2.2
@@ -10,6 +12,7 @@ env:
 branches:
   only:
     - develop
+    - master
 
 install: gem install jekyll jekyll-responsive_image
 script: ".travis/build.sh"
