@@ -13,8 +13,14 @@ branches:
   only:
     - develop
     - master
+	
+cache: bundler
 
-install: gem install jekyll jekyll-responsive_image
+before_install:
+  - gem update --system
+  - gem --version
+
+install: bundle install --jobs=3 --retry=3
 script: ".travis/build.sh"
 
 deploy:

@@ -13,6 +13,7 @@ relative_permalinks: false
 permalink: news/:title/
 
 include: ['_pages']
+exclude: ['README.md', 'LICENSE.md', 'Gemfile.lock', 'Gemfile']
 
 # Responsive-image
 responsive_image:
