@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h3 class="post-title">{{ page.title }}</h3>
+  <p><time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time></p>
+  
+  {{ content }}
+</article>
