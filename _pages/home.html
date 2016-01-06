@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Electrical Age | The Minecraft mod (ELN) 2
+title: The Minecraft mod (ELN)
 permalink: /index.html
----      
+---
       <p class="lead">
         <abbr title="attribute"><a href="index.html" title="Electrical Age - Minecraft mod (ELN)">ELN</a></abbr> is a Minecraft mod offering the ability to perform large-scale in-game electrical simulations.
       </p>
@@ -24,15 +24,15 @@ permalink: /index.html
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
-          <div class="item active">{% responsive_image path: screenshots/ELN_PPICTSET1_0004F.JPG %}</div>
-          <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET1_0001F.JPG %}</div>
-          <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET1_0002F.JPG %}</div>
-          <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET1_0003F.JPG %}</div>
-          <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET1_0005F.JPG %}</div>
-          <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET2_0001SMALL.JPG %}</div>
-          <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET2_0002SMALL.JPG %}</div>
-          <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET2_0003SMALL.JPG %}</div>
-          <div class="item">{% responsive_image path: screenshots/ELN_PPICTSET2_0004SMALL.JPG %}</div>
+          <div class="item active">{% responsive_image path: assets/screenshots/ELN_PPICTSET1_0004F.JPG %}</div>
+          <div class="item">{% responsive_image path: assets/screenshots/ELN_PPICTSET1_0001F.JPG %}</div>
+          <div class="item">{% responsive_image path: assets/screenshots/ELN_PPICTSET1_0002F.JPG %}</div>
+          <div class="item">{% responsive_image path: assets/screenshots/ELN_PPICTSET1_0003F.JPG %}</div>
+          <div class="item">{% responsive_image path: assets/screenshots/ELN_PPICTSET1_0005F.JPG %}</div>
+          <div class="item">{% responsive_image path: assets/screenshots/ELN_PPICTSET2_0001SMALL.JPG %}</div>
+          <div class="item">{% responsive_image path: assets/screenshots/ELN_PPICTSET2_0002SMALL.JPG %}</div>
+          <div class="item">{% responsive_image path: assets/screenshots/ELN_PPICTSET2_0003SMALL.JPG %}</div>
+          <div class="item">{% responsive_image path: assets/screenshots/ELN_PPICTSET2_0004SMALL.JPG %}</div>
         </div>
 
         <!-- Controls -->
@@ -45,9 +45,7 @@ permalink: /index.html
       </div>
 
       <!-- BETA warning -->
-      <div class="alert alert-warning" role="alert">
-        <strong>Warning!</strong> Electrical Age is still in BETA.
-      </div>
+      {% include beta.html %}
 
       <div class="row marketing">
         <div class="col-lg-6">
@@ -77,4 +75,19 @@ permalink: /index.html
           <h4>Game lifetime/complexity extended</h4>
           <p>A consequent list of new raw materials and items...</p>
         </div>
+      </div>
+
+      <hr>
+
+      <h3>News</h3>
+
+      <div class="posts">
+      <ul style="list-style-type:none; line-height:30px; padding:0;">    
+        {% for post in site.posts %}
+        <li>
+        <span>{{ post.date | date_to_string }}</span> &raquo;  
+        <h4 class="post-title" style="display: inline"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+        </li>
+        {% endfor %}
+      </ul>
       </div>

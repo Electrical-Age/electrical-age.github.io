@@ -1,0 +1,17 @@
+---
+layout: default
+title: News
+permalink: news/
+---
+      <h3>News</h3>
+
+      <div class="posts">
+      <ul style="list-style-type:none; line-height:30px; padding:0;">    
+        {% for post in site.posts %}
+        <li>
+        <span>{{ post.date | date_to_string }}</span> &raquo;  
+        <h4 class="post-title" style="display: inline"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+        </li>
+        {% endfor %}
+      </ul>
+      </div>
