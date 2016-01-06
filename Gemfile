@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
 gem 'rmagick'
 gem 'jekyll-responsive_image'
+gem 'jekyll-paginate'
 gem 'github-pages'

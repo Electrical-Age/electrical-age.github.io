@@ -142,6 +142,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-paginate
   jekyll-responsive_image
   rmagick
 

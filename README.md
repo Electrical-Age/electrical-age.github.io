@@ -1,8 +1,8 @@
 # Official Electrical-Age website [![Build Status](https://travis-ci.org/Electrical-Age/electrical-age.github.io.svg)](https://travis-ci.org/Electrical-Age/electrical-age.github.io)
 
-Official mod website available online at https://electrical-age.net.
+This is the source code of the official [Electrical-Age/ElectricalAge](https://github.com/Electrical-Age/ElectricalAge) website available online at https://electrical-age.net.
 
-The code source of the mod is available here: https://github.com/Electrical-Age/ElectricalAge
+The code source of the mod is available in the [Electrical-Age/ElectricalAge](https://github.com/Electrical-Age/ElectricalAge) repository.
 
 ## Jekyll
 
@@ -11,13 +11,13 @@ The website is based on [Jekyll](https://jekyllrb.com/). Before getting started,
 1. [Ruby](https://www.ruby-lang.org/)
 2. [Bundler](http://bundler.io/)
 
-Then, to install Jekyll and all reuired gems, run the following command:
+Then, run the following command to install Jekyll and the required gems:
 
 ```sh
-$ bundle install
+$ ./script/install.sh
 ```
 
-Or you can also install the required gems manually:
+Or install them manually:
 
 ```sh
 $ gem update
@@ -27,9 +27,7 @@ $ gem install jekyll-responsive_image
 $ jekyll serve
 ```
 
-Finally, use the command `bundle exec jekyll serve` in the root of your repository to run the GitHub Pages build server with Bundler.
-
-Navigate to http://localhost:4000 to see your local site.
+Finally, run the `./script/server.sh` script from the root folder to build and serve Jekyll locally. Navigate to [http://localhost:4000](http://localhost:4000) to see the website.
 
 ## License
 

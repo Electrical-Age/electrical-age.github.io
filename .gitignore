@@ -1,4 +1,5 @@
 *~
-_site
-/assets/resized/*
-.bundle
+/_site
+/assets/screenshots/**/
+/.bundle
+Gemfile.lock
