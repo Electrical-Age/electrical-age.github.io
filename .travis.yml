@@ -21,11 +21,11 @@ before_install:
   - gem --version
 
 install: bundle install --jobs=3 --retry=3
-script: ".travis/build.sh"
+script: "script/cibuild.sh"
 
 deploy:
   skip_cleanup: true
   provider: script
-  script: ".travis/deploy.sh"
+  script: "script/cideploy.sh"
   on:
     branch: develop
