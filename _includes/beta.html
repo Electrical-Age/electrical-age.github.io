@@ -1,3 +1,7 @@
 <div class="alert alert-warning" role="alert">
-  <strong>Warning!</strong> Electrical Age is still in BETA.
+  {% capture link %}{{ page.permalink }}{% endcapture %}
+  {% if link contains 'index.html' %}
+  <p><strong>Help wanted: </strong>translate the mod in your language. More information <a href="/news/translations-help-wanted/" title="Translations">are available here</a>.</p>
+  {% endif %}
+  <p><strong>Warning!</strong> Electrical Age is still in BETA.</p>
 </div>
