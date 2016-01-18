@@ -18,7 +18,6 @@ include:
 exclude:
   - LICENSE.md
   - README.md
-  - assets/screenshots/
   - assets/temp/
   - Gemfile
   - Gemfile.lock
