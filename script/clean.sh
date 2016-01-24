@@ -1,3 +1,4 @@
-echo "Clean up"
+#!/bin/bash
 
+echo "Clean up"
 rm -Rf _site
