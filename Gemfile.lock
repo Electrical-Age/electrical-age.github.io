@@ -101,16 +101,18 @@ GEM
       rb-inotify (>= 0.9)
     maruku (0.7.0)
     mercenary (0.3.5)
-    mini_portile2 (2.0.0)
+    mini_portile2 (2.1.0)
     minitest (5.8.3)
     multipart-post (2.0.0)
     net-dns (0.8.0)
-    nokogiri (1.6.7.1-x64-mingw32)
-      mini_portile2 (~> 2.0.0.rc2)
+    nokogiri (1.6.8.rc3-x64-mingw32)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
     octokit (4.2.0)
       sawyer (~> 0.6.0, >= 0.5.3)
     parslet (1.5.0)
       blankslate (~> 2.0)
+    pkg-config (1.1.7)
     posix-spawn (0.3.11)
     public_suffix (1.5.3)
     pygments.rb (0.6.3)
@@ -144,7 +146,8 @@ DEPENDENCIES
   github-pages
   jekyll-paginate
   jekyll-responsive_image
+  nokogiri (>= 1.6.8.rc3)
   rmagick
 
 BUNDLED WITH
-   1.11.2
+   1.12.4

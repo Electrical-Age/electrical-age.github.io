@@ -10,6 +10,7 @@ The website is based on [Jekyll](https://jekyllrb.com/). Before getting started,
 
 1. [Ruby](https://www.ruby-lang.org/)
 2. [Bundler](http://bundler.io/)
+3. [ImageMagick](http://www.imagemagick.org/script/binary-releases.php) - Tested with `6.9.1-3-Q16`, see [this installing guide](https://github.com/rmagick/rmagick/wiki)
 
 Then, run the following command to install Jekyll and the required gems:
 
