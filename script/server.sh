@@ -1,6 +1,6 @@
 #!/bin/bash
 
 echo "Serve jekyll"
-bundle exec jekyll serve -w
+bundle exec jekyll serve --watch
 
 sh ./clean.sh
