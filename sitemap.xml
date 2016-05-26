@@ -16,4 +16,13 @@
     <priority>0.8</priority>
   </url>
   {% endfor %}
+  {% for page in site.pages %}
+  {% unless page.url contains '.' %}
+  <url>
+    <loc>https://electrical-age.net{{ page.url }}</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endunless %}
+  {% endfor %}
 </urlset>
