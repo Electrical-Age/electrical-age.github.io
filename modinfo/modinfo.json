@@ -1,15 +1,15 @@
 {
   "stable":{
     "version_major":1,
-    "version_minor":11,
-    "version_revision":51,
-    "url":"https://github.com/Electrical-Age/ElectricalAge/releases/download/BETA-1.11r51/ElectricalAge_BETA-1.11_r51.jar"
+    "version_minor":12,
+    "version_revision":0,
+    "url":"https://github.com/Electrical-Age/ElectricalAge/releases/tag/1.12.0"
   },
   "dev":{
     "version_major":1,
-    "version_minor":12,
+    "version_minor":13,
     "version_revision":0,
-    "version_date":"20160520.165235-16",
+    "version_date":"20161020.225600-00",
     "url":""
   },
   "mod_url":"https://electrical-age.net/",
