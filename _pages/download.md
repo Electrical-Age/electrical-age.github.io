@@ -13,9 +13,9 @@ If you are unsure which download is for you, take the stable release.
 
 #### Stable Releases
 
-Stable and official versions of the ElectricalAge mod released by the EA team on github.
+Stable and official versions of the ElectricalAge mod released by the EA team on curseforge.
 
-<a class="btn btn-lg btn-primary" href="https://github.com/Electrical-Age/ElectricalAge/releases" role="button">Download stable releases</a>
+<a class="btn btn-lg btn-primary" href="https://minecraft.curseforge.com/projects/electrical-age" role="button">Download stable releases</a>
 <br/><br/><br/>
 
 #### Development snapshots
