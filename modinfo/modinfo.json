@@ -1,15 +1,15 @@
 {
   "stable":{
     "version_major":1,
-    "version_minor":14,
-    "version_revision":1,
+    "version_minor":13,
+    "version_revision":0,
     "url":"https://minecraft.curseforge.com/projects/electrical-age"
   },
   "dev":{
     "version_major":1,
     "version_minor":14,
-    "version_revision":0,
-    "version_date":"20170219.2200-00",
+    "version_revision":2,
+    "version_date":"",
     "url":""
   },
   "mod_url":"https://electrical-age.net/",
