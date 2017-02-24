@@ -1,8 +1,8 @@
 {
   "stable":{
     "version_major":1,
-    "version_minor":13,
-    "version_revision":0,
+    "version_minor":14,
+    "version_revision":2,
     "url":"https://minecraft.curseforge.com/projects/electrical-age"
   },
   "dev":{
