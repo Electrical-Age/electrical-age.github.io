@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'github-pages', group: :jekyll_plugins
+gem 'jekyll-responsive_image', group: :jekyll_plugins
 gem 'rmagick'
-gem 'jekyll-responsive_image'
 gem 'jekyll-paginate'
 gem "nokogiri", ">= 1.8.2"
 
