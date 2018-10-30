@@ -1,11 +1,11 @@
-﻿# Dependencies
-markdown:         kramdown
+﻿markdown: kramdown
 
 kramdown:
   syntax_highlighter: rouge
 
-gems:
+plugins:
   - jemoji
+  - jekyll-responsive_image
 
 # Permalinks
 relative_permalinks: false
@@ -50,4 +50,4 @@ author:
   name: Electrical-Age Team
 
 github:
-  repo:        https://github.com/Electrical-Age/electrical-age.github.io
+  repo: https://github.com/Electrical-Age/electrical-age.github.io
