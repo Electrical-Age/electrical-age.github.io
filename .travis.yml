@@ -7,7 +7,7 @@ rvm:
 env:
   global:
   - GH_REF: github.com/Electrical-Age/electrical-age.github.io.git
-  - secure: AqIr/bdpfgmotNL+zhbn8CFHXmetV1kXDC/2FkWy5U7axA8TvoOkZiWS03CkTNY1JMqBvIVg3PekZr4RLKB15M4gH19zSRfSoWdByB1OnHHboLkhYeJaen75PXmhFZNu1p2RFR84RNeejVE0bdxykYuDj8fHc1JYnGGt4eXCs9k=
+  - secure: kNqcJGZ6Z545ULlipXvjvWnekovuJTDx79uvQLAhZI6+6MrLJndJSYYzqBOD6yjI3NxjIckpVmCvTLDFDcS4wlUZ1IrNAk6Nep50MHiIN2qn0yjduxOXDEVeNl88q7ZbwVPMc7gsOyptjrHX4xklhP/ycDTk1ev3JJjI66ECb7U=
 
 cache: bundler
 
