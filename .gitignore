@@ -3,3 +3,4 @@
 /assets/screenshots/**/
 /.bundle
 Gemfile.lock
+/vendor
