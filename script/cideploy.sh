@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -x
+
 # Script updated from https://github.com/felixrieseberg/travis-jekyll-git/blob/master/scripts/deploy.sh
 if [ "$TRAVIS_REPO_SLUG" == "Electrical-Age/electrical-age.github.io" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ]
 then
