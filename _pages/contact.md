@@ -10,4 +10,4 @@ Please first read the [official Minecraft forum post](http://www.minecraftforum.
 
 Some items available in the mod are described in details [on the official Wiki](http://wiki.electrical-age.net/index.php/Main_Page).
 
-If you need help or just want to contact us, please use either [the Electrical-Age/Support room on Gitter](https://gitter.im/Electrical-Age/Support) or the #electricalage channel on `irc.rizon.net`.
+If you need help or just want to contact us, please use either [the official Discord server](https://discord.gg/YjK2JAD) or the #electricalage channel on `irc.rizon.net`.
