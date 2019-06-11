@@ -24,7 +24,14 @@ Here you can find the latest development snapshot(s). This versions have not bee
 
 Use them on your own risk and make backups of your maps in order to avoid trouble.
 
-<a class="btn btn-lg btn-primary" href="http://ci.safranil.fr/job/ElectricalAge/lastSuccessfulBuild" role="button">Download development snapshots</a>
+*For 1.12 development, there are currently no available jars. You will need to go to the following link and compile it yourself.*
+
+<a class="btn btn-lg btn-primary" href="https://github.com/Electrical-Age/ElectricalAge/tree/ports/1.10" role="button">1.12 Development Repository</a>
+
+*For unofficial 1.7.10 development, please visit the following link for jrddunbr's GitHub releases page.*
+
+<a class="btn btn-lg btn-primary" href="https://github.com/jrddunbr/ElectricalAge/releases" role="button">1.7.10 Unofficial Release Jars</a>
+
 <br/><br/><br/>
 
 
