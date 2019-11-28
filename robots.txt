@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://electrical-age.github.io/sitemap.xml

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<!--
+  This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+  To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/3.0/.
+-->
+<html lang="en" prefix="og: http://ogp.me/ns/website#">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Electrical Age is a Minecraft mod offering the ability to perform large-scale in-game electrical simulations.">
+    <meta name="author" content="Electrical-Age Team">
+    <meta name="keywords" content="ELN, minecraft, mod, electrical simulations, electricity">
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Electrical Age | 1.12.0 Released" />
+    <meta property="og:description" content="Electrical Age is a Minecraft mod offering the ability to perform large-scale in-game electrical simulations." />
+    <meta property="og:url" content="https://electrical-age.net/news/release-1-12/" />
+    <meta property="og:site_name" content="Electrical Age" />
+    <meta property="og:image" content="/assets/elnlogocube.png" />
+
+    <title>Electrical Age | 1.12.0 Released</title>
+
+    <link rel="icon" href="/assets/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/elnlogocube.png" />
+
+    <link rel="canonical" href="http://electrical-age.net/news/release-1-12/" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/gh-fork-ribbon.css" rel="stylesheet">
+    <link href="/assets/css/jumbotron-narrow.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Github ribbon -->
+    <div class="github-fork-ribbon-wrapper right hidden-sm hidden-xs">
+      <div class="github-fork-ribbon">
+        <a href="https://github.com/Electrical-Age/ElectricalAge">Electrical Age on GitHub</a>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Navigation -->
+      <nav class="navbar">
+        <div style="height:70px;border-bottom-color:#E5E5E5;border-bottom-style:solid;border-bottom-width:1px;padding:0;margin:0;">
+          <div class="navbar-header pull-left">
+            <div class="media-left" style="line-height:60px;"><img src="/assets/elnlogocube.png" height="48" width="48" alt="ElectricalAge"></div>
+            <div class="media-left">
+              <h2><a style="color:black;" href="/" title="Electrical Age">Electrical Age</a></h2>
+              <h3 style="margin:0"><small>Minecraft mod - Codename : ELN</small></h3>
+            </div>
+          </div>
+
+          <div class="navbar-header pull-right" style="margin-top:5px;">
+            <ul class="nav navbar-nav nav-pills pull-left">
+              <li><a href="/news/" title="News">News</a></li>
+              <li><a href="/contact/" title="Support">Support</a></li>
+              <li><a href="http://www.minecraftforum.net/topic/2741783-172forge-electrical-age-mod-beta-146/" title="Forum post">Forum</a></li>
+              <li><a href="http://wiki.electrical-age.net/" title="Wiki">Wiki</a></li>
+              <li class="active"><a href="/download/" title="Download"><strong>Download</strong></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav><!-- /navigation -->
+
+<article class="post">
+  <h3 class="post-title">1.12.0 Released</h3>
+  <p><time datetime="2016-10-30T00:00:00+00:00" class="post-date">30 Oct 2016</time></p>
+  
+  <div class="alert alert-warning" role="alert">
+  
+  
+  <p><strong>Warning!</strong> Electrical Age is still in BETA.</p>
+</div>
+
+<p>Electrical Age is Minecraft 1.7.10 compatible. Forge is required.</p>
+
+<p>This version of Electrical Age is, as an experiment, built against the latest 1.7.10 version of Forge (10.13.4.1614) rather than the ‘recommended’ version. Please let us know if this breaks anything.</p>
+
+<p>We’ve also changed the versioning scheme, to follow <a href="http://semver.org/">semantic versioning</a> rules. This is version 1.12.0. Any bugfixes released without gameplay changes will be 1.12.1, 1.12.2 and so forth. See the link for a full explanation.</p>
+
+<p>The tutorial map remains our recommended method of learning the basics of Electrical Age, but doesn’t include examples of the highest-tier, mechanical power blocks. To learn about these we recommend the <a href="https://electrical-age.net/contact/">other support options</a>, particularly Gitter or IRC.</p>
+
+<p>There is also a <a href="https://madoka.brage.info">semi-official server</a>, many players on which would be happy to show you around. This always runs the newest development builds, so join in if you want to be an alpha tester.</p>
+
+<p>We are currently looking for people who can help with the Wiki.</p>
+
+<p>♪♫♫♪♫</p>
+
+<p>Changes:</p>
+
+<ul>
+  <li>New items:
+    <ul>
+      <li>
+        <p>Added a Gas Turbine. This creates mechanical energy by burning gasoline and equivalents.</p>
+
+        <p>The Gas Turbine’s unique charm point, compared to the steam turbine, is that it reacts much faster to control inputs. This makes it more useful in early-midgame. It will also run at 800V if required, although inefficiently. The gas turbine needs to be spun up before it will work, however.</p>
+
+        <p>A wide variety of mod-provided fuels already work, but we’d take any requests for more. Diesel and raw oil deliberately does not, however; use the steam turbine for these.</p>
+      </li>
+      <li>Added a straight mechanical shaft block.</li>
+      <li>Added a mechanical joint block, allowing shaft networks to spread out in 2D.</li>
+      <li>
+        <p>Added a flywheel.</p>
+
+        <p>This can be used to store energy in shaft networks, and are a good early-midgame alternative to electrical emergency power dumps, but will slow spinup by a large factor.</p>
+      </li>
+      <li>Added a Tachometer block. This outputs the speed of the shaft network as a signal.</li>
+      <li>Added a battery-powered fire detector and buzzer.</li>
+      <li>Added lead uses, as a cheaper alternative to electrical breakers.</li>
+    </ul>
+  </li>
+  <li>Gameplay changes:
+    <ul>
+      <li>Fuel Generators can burn all the same fuels as the Gas Turbine, except for natural gas.</li>
+      <li>
+        <p>Added WAILA support.</p>
+
+        <p>By default it will only show you information you could theoretically get without a multimeter.
+There is a configuration option to switch this.</p>
+      </li>
+    </ul>
+  </li>
+  <li>Added configuration options:
+    <ul>
+      <li>The Modbus server port is now configurable.</li>
+      <li>In case the port is unavailable, we’ll ignore it and continue rather than crash.</li>
+      <li>The LED bulbs can be configured to have infinite lifespan, even with lamp aging turned on.</li>
+      <li>Battery capacity is now configurable. Please be reasonable; the defaults are as they are to maintain balance.</li>
+    </ul>
+  </li>
+  <li>Bugfixes:
+    <ul>
+      <li>Fixed a Thaumic Energistics-triggered NPE.</li>
+      <li>Modbus server is only started if enabled in the config.</li>
+      <li>No more random extra letters in the menus.</li>
+      <li>Misc. fixes: #456, #489, #387, #482, #295, #490, #441, #508, #511,</li>
+    </ul>
+  </li>
+  <li>Visual:
+    <ul>
+      <li>Mechanical shafts now all rotate in the correct direction, regardless of placement.</li>
+    </ul>
+  </li>
+</ul>
+
+</article>
+
+    </div> <!-- /container -->
+
+    <div class="footer">
+      <div class="container">
+        <p class="credit" style="float:right;">
+          <iframe src="https://ghbtns.com/github-btn.html?user=Electrical-Age&amp;repo=ElectricalAge&amp;type=star" style="width:50px;height:20px;overflow:hidden;border:0;"></iframe>
+        </p>
+
+        <p class="credit">
+          This project is maintained with all the <i class="glyphicon glyphicon-heart" style="color: red;"></i> in the world by <a href="https://github.com/Dolu1990" title="Dolu1990">Dolu1990</a> and <a href="https://github.com/Electrical-Age" title="ElectricalAge team">the ElectricalAge team</a>.
+        </p>
+        <p class="text-muted">
+          The source code of this mod is licensed under the <a href="http://www.gnu.org/copyleft/lesser.html" title="License">LGPL V3.0 licence</a>.<br />
+          <small>This mod is not affiliated with Mojang.com or Minecraft.net.</small>
+        </p>
+      </div>
+    </div> <!-- /footer -->
+
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-49110359-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>

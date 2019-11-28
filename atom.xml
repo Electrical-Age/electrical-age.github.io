@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Electrical Age</title>
+ <link href="https://electrical-age.github.io/atom.xml" rel="self"/>
+ <link href="https://electrical-age.github.io/"/>
+ <updated>2019-11-28T17:42:43+00:00</updated>
+ <id>https://electrical-age.github.io</id>
+ <author>
+   <name>Electrical-Age Team</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>1.13.0 Released</title>
+   <link href="https://electrical-age.github.io/news/release-1-13/"/>
+   <updated>2016-12-08T00:00:00+00:00</updated>
+   <id>https://electrical-age.github.io/news/release-1.13</id>
+   <content type="html">&lt;p&gt;Electrical Age is Minecraft 1.7.10 compatible. Forge is required.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://madoka.brage.info/baughn/BdrK2dG.jpg&quot; alt=&quot;Power station&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s call this the “Power grid” release.&lt;/p&gt;
+
+&lt;p&gt;The chief feature added this time is electrical utility poles, which allow you
+to transfer electricity further and faster than ever before. Although chiefly of
+use on modded servers with large energy sinks such as Applied Energistics, you
+may find that they’re handy for getting that suburb look in your base.&lt;/p&gt;
+
+&lt;p&gt;To connect two utility poles, right-click them with a stack of high-voltage
+cable.&lt;/p&gt;
+
+&lt;p&gt;They come in two variants: With or without transformers. Only the former can be
+attached to old-fashioned ground cables.&lt;/p&gt;
+
+&lt;p&gt;Utility poles run at a nominal voltage of 12,800 volts, for just over 80kW of
+power capacity. A second tier of poles will be added, though possibly not during
+the 1.7.10 cycle. I am now gearing up for the port to 1.10.2, but others are
+still working on 1.7.10, so this may or may not be the final 1.7.10 release.&lt;/p&gt;
+
+&lt;h3 id=&quot;community-spotlight&quot;&gt;Community spotlight&lt;/h3&gt;
+
+&lt;p&gt;There is an ongoing series of tutorials, to be found
+&lt;a href=&quot;https://wiki.electrical-age.net/index.php?title=Examples&quot;&gt;on the wiki&lt;/a&gt;, and
+which now includes an embryonic power-pole tutorial.&lt;/p&gt;
+
+&lt;p&gt;As always, we will grant wiki editing access to anyone who shows up
+&lt;a href=&quot;https://gitter.im/Electrical-Age/Support&quot;&gt;in gitter&lt;/a&gt; or
+&lt;a href=&quot;https://qchat.rizon.net/?channels=electricalage&quot;&gt;on irc&lt;/a&gt; and asks.&lt;/p&gt;
+
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Tier-1 utility poles&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Analog chips&lt;/p&gt;
+
+    &lt;p&gt;Similarly to the digital AND/OR/NAND etc. chips added in the previous release,
+these let you break out the signal processor’s function into multiple
+blocks. We’ve also added an OpAmp chip, so please have fun playing with it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The macerator now macerates AE2 ores&lt;/p&gt;
+
+    &lt;p&gt;The correct way to make it work with mod ores is to install AOBD, but AOBD
+lacked support for AE2.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bugfixes&quot;&gt;Bugfixes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;WAILA support now works on (some) ‘ghost’ blocks, and uses less memory.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>1.12.0 Released</title>
+   <link href="https://electrical-age.github.io/news/release-1-12/"/>
+   <updated>2016-10-30T00:00:00+00:00</updated>
+   <id>https://electrical-age.github.io/news/release-1.12</id>
+   <content type="html">&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
+  
+  
+  &lt;p&gt;&lt;strong&gt;Warning!&lt;/strong&gt; Electrical Age is still in BETA.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Electrical Age is Minecraft 1.7.10 compatible. Forge is required.&lt;/p&gt;
+
+&lt;p&gt;This version of Electrical Age is, as an experiment, built against the latest 1.7.10 version of Forge (10.13.4.1614) rather than the ‘recommended’ version. Please let us know if this breaks anything.&lt;/p&gt;
+
+&lt;p&gt;We’ve also changed the versioning scheme, to follow &lt;a href=&quot;http://semver.org/&quot;&gt;semantic versioning&lt;/a&gt; rules. This is version 1.12.0. Any bugfixes released without gameplay changes will be 1.12.1, 1.12.2 and so forth. See the link for a full explanation.&lt;/p&gt;
+
+&lt;p&gt;The tutorial map remains our recommended method of learning the basics of Electrical Age, but doesn’t include examples of the highest-tier, mechanical power blocks. To learn about these we recommend the &lt;a href=&quot;https://electrical-age.net/contact/&quot;&gt;other support options&lt;/a&gt;, particularly Gitter or IRC.&lt;/p&gt;
+
+&lt;p&gt;There is also a &lt;a href=&quot;https://madoka.brage.info&quot;&gt;semi-official server&lt;/a&gt;, many players on which would be happy to show you around. This always runs the newest development builds, so join in if you want to be an alpha tester.&lt;/p&gt;
+
+&lt;p&gt;We are currently looking for people who can help with the Wiki.&lt;/p&gt;
+
+&lt;p&gt;♪♫♫♪♫&lt;/p&gt;
+
+&lt;p&gt;Changes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;New items:
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Added a Gas Turbine. This creates mechanical energy by burning gasoline and equivalents.&lt;/p&gt;
+
+        &lt;p&gt;The Gas Turbine’s unique charm point, compared to the steam turbine, is that it reacts much faster to control inputs. This makes it more useful in early-midgame. It will also run at 800V if required, although inefficiently. The gas turbine needs to be spun up before it will work, however.&lt;/p&gt;
+
+        &lt;p&gt;A wide variety of mod-provided fuels already work, but we’d take any requests for more. Diesel and raw oil deliberately does not, however; use the steam turbine for these.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Added a straight mechanical shaft block.&lt;/li&gt;
+      &lt;li&gt;Added a mechanical joint block, allowing shaft networks to spread out in 2D.&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Added a flywheel.&lt;/p&gt;
+
+        &lt;p&gt;This can be used to store energy in shaft networks, and are a good early-midgame alternative to electrical emergency power dumps, but will slow spinup by a large factor.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Added a Tachometer block. This outputs the speed of the shaft network as a signal.&lt;/li&gt;
+      &lt;li&gt;Added a battery-powered fire detector and buzzer.&lt;/li&gt;
+      &lt;li&gt;Added lead uses, as a cheaper alternative to electrical breakers.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Gameplay changes:
+    &lt;ul&gt;
+      &lt;li&gt;Fuel Generators can burn all the same fuels as the Gas Turbine, except for natural gas.&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Added WAILA support.&lt;/p&gt;
+
+        &lt;p&gt;By default it will only show you information you could theoretically get without a multimeter.
+There is a configuration option to switch this.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Added configuration options:
+    &lt;ul&gt;
+      &lt;li&gt;The Modbus server port is now configurable.&lt;/li&gt;
+      &lt;li&gt;In case the port is unavailable, we’ll ignore it and continue rather than crash.&lt;/li&gt;
+      &lt;li&gt;The LED bulbs can be configured to have infinite lifespan, even with lamp aging turned on.&lt;/li&gt;
+      &lt;li&gt;Battery capacity is now configurable. Please be reasonable; the defaults are as they are to maintain balance.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Bugfixes:
+    &lt;ul&gt;
+      &lt;li&gt;Fixed a Thaumic Energistics-triggered NPE.&lt;/li&gt;
+      &lt;li&gt;Modbus server is only started if enabled in the config.&lt;/li&gt;
+      &lt;li&gt;No more random extra letters in the menus.&lt;/li&gt;
+      &lt;li&gt;Misc. fixes: #456, #489, #387, #482, #295, #490, #441, #508, #511,&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Visual:
+    &lt;ul&gt;
+      &lt;li&gt;Mechanical shafts now all rotate in the correct direction, regardless of placement.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>BETA-1.11 releases</title>
+   <link href="https://electrical-age.github.io/news/release-1-11/"/>
+   <updated>2016-05-20T00:00:00+00:00</updated>
+   <id>https://electrical-age.github.io/news/release-1.11</id>
+   <content type="html">&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
+  
+  
+  &lt;p&gt;&lt;strong&gt;Warning!&lt;/strong&gt; Electrical Age is still in BETA.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;ElectricalAge is Minecraft 1.7.10 compatible. Forge is needed.&lt;/p&gt;
+
+&lt;h1 id=&quot;r51-release&quot;&gt;r51 release&lt;/h1&gt;
+
+&lt;p&gt;♪♫♫♪♫&lt;/p&gt;
+
+&lt;p&gt;Changes:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Now translated into the following languages:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Dutch&lt;/li&gt;
+      &lt;li&gt;German&lt;/li&gt;
+      &lt;li&gt;Italian&lt;/li&gt;
+      &lt;li&gt;Russian&lt;/li&gt;
+      &lt;li&gt;Spanish&lt;/li&gt;
+      &lt;li&gt;French&lt;/li&gt;
+      &lt;li&gt;Chinese&lt;/li&gt;
+      &lt;li&gt;Polish&lt;/li&gt;
+      &lt;li&gt;Portuguese (partial)&lt;/li&gt;
+      &lt;li&gt;Turkish (partial)&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;We use Transifex for translation, so if your language is not yet listed here, help is welcome: &lt;a href=&quot;https://www.transifex.com/electrical-age/&quot;&gt;https://www.transifex.com/electrical-age/&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Simulation improvements&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;“Game changing” improvements for transformer simulation model&lt;/li&gt;
+      &lt;li&gt;New mechanical shaft system to transfer mechanical energy by rotation&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Icons redesign&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Most icons redesigned and 3D renderings replaced by symbols&lt;/li&gt;
+      &lt;li&gt;The different voltages are represented by different background colors&lt;/li&gt;
+      &lt;li&gt;Better charge overlays for portable items/batteries&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Item updates:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Completely new model for the lamp supply&lt;/li&gt;
+      &lt;li&gt;New model for the circuit breaker&lt;/li&gt;
+      &lt;li&gt;New functions for the signal processor: pow, acos, asin, rescale&lt;/li&gt;
+      &lt;li&gt;Added silk touch functionality to auto miner&lt;/li&gt;
+      &lt;li&gt;Improved defense turret rendering / behavior&lt;/li&gt;
+      &lt;li&gt;Improved placement for almost all items&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;New items:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Sconce lamp&lt;/li&gt;
+      &lt;li&gt;LED bulbs&lt;/li&gt;
+      &lt;li&gt;Rheostat&lt;/li&gt;
+      &lt;li&gt;Steam turbine (Buildcraft compatible, mechanical output)&lt;/li&gt;
+      &lt;li&gt;Very high voltage generator (mechanical input)&lt;/li&gt;
+      &lt;li&gt;Fuel generators (50V and 200V model) (Mod providing fuel liquid required, ex. Buildcraft)&lt;/li&gt;
+      &lt;li&gt;Logic gates:
+        &lt;ul&gt;
+          &lt;li&gt;NOT chip&lt;/li&gt;
+          &lt;li&gt;AND chip&lt;/li&gt;
+          &lt;li&gt;OR chip&lt;/li&gt;
+          &lt;li&gt;NAND chip&lt;/li&gt;
+          &lt;li&gt;NOR chip&lt;/li&gt;
+          &lt;li&gt;XOR chip&lt;/li&gt;
+          &lt;li&gt;XNOR chip&lt;/li&gt;
+          &lt;li&gt;D Flip-Flip chip&lt;/li&gt;
+          &lt;li&gt;JK Flip-Flop chip&lt;/li&gt;
+          &lt;li&gt;Schmitt-Trigger chip&lt;/li&gt;
+          &lt;li&gt;Oscillator chip&lt;/li&gt;
+          &lt;li&gt;PAL (Programmable Array Logic) chip&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Bug fixes and improvements:&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/429&quot;&gt;#429&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/400&quot;&gt;#400&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/396&quot;&gt;#396&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/390&quot;&gt;#390&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/389&quot;&gt;#389&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/386&quot;&gt;#386&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/382&quot;&gt;#382&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/381&quot;&gt;#381&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/380&quot;&gt;#380&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/379&quot;&gt;#379&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/375&quot;&gt;#375&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/374&quot;&gt;#374&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/371&quot;&gt;#371&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/368&quot;&gt;#368&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/367&quot;&gt;#367&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/365&quot;&gt;#365&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/351&quot;&gt;#351&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/344&quot;&gt;#344&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/339&quot;&gt;#339&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/335&quot;&gt;#335&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/333&quot;&gt;#333&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/332&quot;&gt;#332&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/323&quot;&gt;#323&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/309&quot;&gt;#309&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/289&quot;&gt;#289&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/279&quot;&gt;#279&lt;/a&gt;, &lt;a href=&quot;https://github.com/Electrical-Age/ElectricalAge/issues/267&quot;&gt;#267&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Added configuration options:&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Autominer range&lt;/li&gt;
+      &lt;li&gt;Fuel generator power factor&lt;/li&gt;
+      &lt;li&gt;Fuel generator tank capacity&lt;/li&gt;
+      &lt;li&gt;LED bulb lifetime&lt;/li&gt;
+      &lt;li&gt;Wireless signal range&lt;/li&gt;
+      &lt;li&gt;Cable serial resistance&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Removed dependency to modbus4j&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Replaced modbus4j by build-in Modbus RTU slave implementation (minimal)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;… and most certainly we forgot to mention something here…&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Translate the mod in your language [Help wanted]</title>
+   <link href="https://electrical-age.github.io/news/translations-help-wanted/"/>
+   <updated>2016-01-13T00:00:00+00:00</updated>
+   <id>https://electrical-age.github.io/news/translations</id>
+   <content type="html">&lt;p&gt;Hello, Bonjour, Hallo Electrical-Age players.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/news/translate-sign.png&quot; alt=&quot;Translate sign&quot; style=&quot;float:right; width:27%; heigth:auto; margin-left:15px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We rewrote the mod translation system and today we are happy to announce you that the mod will be available in multiple languages soon. The official supported language is English, but translating the mod in your native language is easy. In order to achieve this, we need your help…&lt;/p&gt;
+
+&lt;p&gt;We use &lt;a href=&quot;https://www.transifex.com/&quot;&gt;Transifex&lt;/a&gt; as localization platform. Create an account and &lt;a href=&quot;https://www.transifex.com/electrical-age/eln/&quot;&gt;ask to join the ELN Team on Transifex&lt;/a&gt; to translate the mod into your language. No coding skills are required.&lt;/p&gt;
+
+&lt;p&gt;Help us to make the Electrical-Age mod even better.&lt;/p&gt;
+
+&lt;p&gt;Thank you, the Electrical-Age team.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>BETA-1.10 releases</title>
+   <link href="https://electrical-age.github.io/news/release-1-10/"/>
+   <updated>2015-06-14T00:00:00+00:00</updated>
+   <id>https://electrical-age.github.io/news/release-1.10</id>
+   <content type="html">&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
+  
+  
+  &lt;p&gt;&lt;strong&gt;Warning!&lt;/strong&gt; Electrical Age is still in BETA.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;ElectricalAge is Minecraft 1.7.10 compatible. Forge is needed.&lt;/p&gt;
+
+&lt;h2 id=&quot;r50-fix&quot;&gt;r50 fix&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Definitely fix block disappearing, I can go to walala now.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;r49-fix&quot;&gt;r49 fix&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;EE3 incompability fixed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;r47-fixes&quot;&gt;r47 fixes&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mod now translatable (items/block) !&lt;/li&gt;
+  &lt;li&gt;Command utils for generate/complete lang files.&lt;/li&gt;
+  &lt;li&gt;Reflections on screens.&lt;/li&gt;
+  &lt;li&gt;New item : Digital Wall Clock&lt;/li&gt;
+  &lt;li&gt;New item : Industrial Data Logger&lt;/li&gt;
+  &lt;li&gt;New lang file : Russian&lt;/li&gt;
+  &lt;li&gt;New mod map data saving system (safer and MC decoupled)&lt;/li&gt;
+  &lt;li&gt;Some minor bugs correction.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+
+</feed>
